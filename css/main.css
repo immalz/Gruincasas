@@ -2,6 +2,7 @@
 @import url('./components/header.css');
 @import url('./components/footer.css');
 @import url('./components/inicio.css');
+@import url('./components/botonwtps.css');
 @import url('./components/productos.css');
 * {
     margin: 0;
@@ -19,5 +20,5 @@ html {
 }
 
 body {
-    cursor: url(../../assets/images/cursor.png), auto;
+    cursor: url(../../assets/images/cursor.png), pointer;
 }

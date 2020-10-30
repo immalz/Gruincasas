@@ -354,6 +354,27 @@
 }
 
 
+/*-------------PROYECTOS--------------*/
+
+.proyectos {
+    margin-bottom: 80px;
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+}
+
+.proyecto__video {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.proyecto__video .video iframe {
+    width: 330px;
+    height: 200px;
+}
+
+
 /*-------------RESPONSIVE--------------*/
 
 @media (max-width: 1000px) {
