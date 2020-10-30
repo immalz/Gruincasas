@@ -81,3 +81,13 @@
 .footer .footer__corpex span a {
     color: var(--color-principal);
 }
+
+@media (max-width: 700px) {
+    .footer .footer__empresa {
+        flex-direction: column;
+    }
+    .footer .footer__empresa .nosotros,
+    .footer .footer__empresa .contacto {
+        width: 100%;
+    }
+}
